@@ -1,0 +1,21 @@
+@import 'components/colors';
+@import 'components/effects';
+@import 'components/text';
+
+
+.navbar-light {
+	background-color: $color-brand-light;
+}
+
+.nav-item {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.nav-item>.nav-link {
+	color: #c68967 !important;
+}
+
+.active>.nav-link {
+	color: #903425 !important;
+}
